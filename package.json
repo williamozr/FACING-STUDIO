@@ -21,11 +21,12 @@
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.6"
   },
-  "homepage": ".",
+  "homepage": "https://github.com/williamozr/FACING-STUDIO.git",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
